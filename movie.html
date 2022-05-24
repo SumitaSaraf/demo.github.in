@@ -20,6 +20,21 @@ h1{color:orange ;font size:150px; font-family:Comic Sans MS;}
   margin-left: auto; 
   margin-right: auto;
 }
+    .bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
 </style>
  
 <title> SUPER HERO</title>
@@ -29,8 +44,10 @@ h1{color:orange ;font size:150px; font-family:Comic Sans MS;}
 <body>
  <h1  align="center">OUR SUPER HERO</h1>
   
-   <div class="bg">
+  <div class="bg"></div>
   <br>
+  <div class="bg-text">
+     <h1> This is the Movie List Page</h1> </div>
   <table width = "70%">
  
     
@@ -46,7 +63,7 @@ h1{color:orange ;font size:150px; font-family:Comic Sans MS;}
 </tr>
   </table>
  
-  
+  </div>
 <br><br>
 <br>
 <table class="center" >
@@ -79,6 +96,6 @@ h1{color:orange ;font size:150px; font-family:Comic Sans MS;}
   
   
   </table>
-  </div>
+  
   </body>
 </html>
